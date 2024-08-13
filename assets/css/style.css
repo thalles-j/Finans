@@ -173,6 +173,10 @@
   cursor: pointer
 
 }
+
+.container-request h2{
+  text-align: center;
+}
 .container-request button.hidden{
   background-color: transparent;
   border-color: var(--white-color);
