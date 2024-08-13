@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+:root {
+    --primary-color: #ffc107;
+    
+  }
+  
+
+#home{
+    background-color: var(--primary-color) ;
+    color: #ffffff;
+}
