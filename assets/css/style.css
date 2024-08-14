@@ -138,7 +138,7 @@
   opacity: 0;
   z-index: 1;
 }
-.container-register.active .sign-un{
+.container-register.active .sign-up{
   transform: translateX(100%);
   opacity: 1;
   z-index: 5;
@@ -186,8 +186,7 @@
   transform: translateX(-100%);
   border-radius: 0 150px 100px 0;
 }
-.toggle {
-  
+.toggle{
   font-weight: 600;
   background-color: #0e0d0d;
   height: 100%;
@@ -219,7 +218,9 @@
   transition: all 0.6s ease-in-out;
 
 }
-
+.toggle-panel p{
+  font-size: 1.2rem;
+}
 
 .toggle-left{
   transform: translateX(-200%);
@@ -288,11 +289,6 @@
   transform: translateX(200%);
   
 }
-
-
-
-
-
 
 
 .container-request{
