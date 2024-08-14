@@ -35,7 +35,7 @@
   box-shadow: 0 5px 15px rgba(0, 0 ,0, 0.35);
   position: relative;
   overflow: hidden;
-  width: 768px;
+  width: 758px;
   max-width: 100%;
   min-height: 480px;
 }
@@ -73,7 +73,6 @@
   border-radius: 10px;
   background-color:var(--white-color);
   font-size: 12px;
-  padding: 10px 45px;
   border: 1px solid ;
   border-color:var((--gray-color));
   font-weight: 700;
@@ -107,6 +106,29 @@
   width: 100%;
   outline: none;
 }
+
+.container-register input:focus{
+  box-shadow: #000000 1px 1px 2px ;
+}
+@media only screen and (max-width: 768px) {
+  .container-register h1{
+    font-size: 1.4rem;
+  }
+  .container-register button{
+    font-size: 0.6rem;
+    padding: 10px 15px;
+  
+  }
+  .container-register input{
+    padding: 9px 15px;
+    width: 150%;
+    margin: 5px;
+    
+  }
+  
+}
+
+
 .request-a{
   font-size: 12px;
 }
@@ -122,7 +144,10 @@
   height: 100%;
   transition: all 0.6s ease-in-out;
 
+}.form-container span{
+  margin: 5px;
 }
+
 .sign-in{
   left: 0;
   width: 50%;
@@ -137,6 +162,13 @@
   width: 50%;
   opacity: 0;
   z-index: 1;
+}
+
+.sign-up span{
+  
+  text-align: justify;
+  font-size: 12px;
+  margin: 2px;
 }
 .container-register.active .sign-up{
   transform: translateX(100%);
@@ -219,7 +251,8 @@
 
 }
 .toggle-panel p{
-  font-size: 1.2rem;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .toggle-left{
@@ -364,3 +397,5 @@
   color: #000000;
   font-weight: 600;
 }
+
+
