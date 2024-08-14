@@ -140,6 +140,10 @@
   font-size: 1rem;
 }
 
+.sign-in h1{
+  text-align: center;
+}
+
 .request-a{
   font-size: 12px;
 }
