@@ -6,7 +6,9 @@
     --gray-color: #8b8b8b;
   }
   
-
+*{
+  scroll-behavior: smooth
+}
 #home{
     background-color: var(--primary-color) ;
     color: var(--white-color);
@@ -38,6 +40,7 @@
   width: 758px;
   max-width: 100%;
   min-height: 480px;
+  
 }
 .container-register p{
   font-size: 14px;
