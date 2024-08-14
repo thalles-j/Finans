@@ -49,7 +49,7 @@
   margin: 20px 0;
 }
 .container-register span{
-  font-size: 12px;
+  font-size: 1.4rem;
 }
 .container-register a{
   color: #333;
@@ -61,7 +61,7 @@
   color:var(--white-color) ;
   border-radius: 10px;
   background-color:var(--gray-color);
-  font-size: 12px;
+  font-size: 14px;
   padding: 10px 45px;
   border: 1px solid transparent;
   font-weight: 600;
@@ -69,6 +69,7 @@
   text-transform: uppercase;
   margin-top: 10px;
   cursor: pointer;
+  transition: all 0.6s ease-in-out;
 
 }
 .container-register button:hover{
@@ -78,10 +79,10 @@
   font-size: 12px;
   border: 1px solid ;
   border-color:var((--gray-color));
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  margin-top: 10px;
+  font-weight: 600;
+  transition: all 0.6s ease-in-out;
+  
+  
   cursor: pointer;
 
 }
@@ -111,11 +112,11 @@
 }
 
 .container-register input:focus{
-  box-shadow: #000000 1px 1px 2px ;
+  box-shadow: #000000 0.2px 0.2px 10px  ;
 }
 @media only screen and (max-width: 768px) {
   .container-register h1{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
   .container-register button{
     font-size: 0.6rem;
@@ -124,13 +125,20 @@
   }
   .container-register input{
     padding: 9px 15px;
-    width: 150%;
+    width: 135%;
     margin: 5px;
     
   }
+  #login{
+    font-size: 0.6rem;
+  }
   
+
 }
 
+.form-container span{
+  font-size: 1rem;
+}
 
 .request-a{
   font-size: 12px;
@@ -146,16 +154,17 @@
   top: 0;
   height: 100%;
   transition: all 0.6s ease-in-out;
-
-}.form-container span{
-  margin: 5px;
 }
 
-.sign-in{
+
+.sign-in {
   left: 0;
   width: 50%;
   z-index: 2;
 }
+
+
+
 .container-register.active .sign-in{
   transform: translateX(100%);
 }
@@ -167,12 +176,7 @@
   z-index: 1;
 }
 
-.sign-up span{
-  
-  text-align: justify;
-  font-size: 12px;
-  margin: 2px;
-}
+
 .container-register.active .sign-up{
   transform: translateX(100%);
   opacity: 1;
@@ -262,17 +266,18 @@
   transform: translateX(-200%);
 }
 #login{
-  color: #000000;
-  font-weight: 800;
-  border: 2px solid rgb(0, 0, 0, 0.9)
+  font-size: 1rem;
+  color: var(--white-color);
+  font-weight: 500;
+  border: 2px solid rgba(255, 255, 255, 0.9)
   
 }
 
 #login:hover {
-  background-color: #3f3f3fc4;
-  color: #ffffff;
-  font-weight: 800;
-  border: 1px solid #3f3f3fc4;
+  background-color: #0000002d;
+  color: var(--white-color);
+  font-weight: 700;
+  border: 1px solid #00000042;
   transition: all 0.3s ease-in-out;
 
 }
@@ -287,7 +292,7 @@
   transform: translateX(0);
   color: #000000;
   background-color: #3f3f3fc4;
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 800;
   border: 1px solid #3f3f3fc4;
   transition: all 0.3s ease-in-out;
@@ -309,7 +314,7 @@
 
 #register:hover {
   background-color: #3f3f3fc4;
-  color: #ffffff;
+  color:var(--white-color);
   font-weight: 800;
   border: 1px solid #3f3f3fc4;
   transition: all 0.3s ease-in-out;
@@ -334,15 +339,16 @@
   box-shadow: 0 5px 15px rgba(0, 0 ,0, 0.40);
   position: relative;
   overflow: hidden;
-
+  padding: 2rem;
 }
 .container-request p{
   font-size: 16px;
-  line-height: 25px;
+  line-height: 20px;
   letter-spacing: 0.3px;
   margin: 20px 0;
 }
 .container-request span{
+  background-color: var(--white-color);
   padding: 10px;
   font-size: 1rem;
 }
@@ -366,7 +372,9 @@
 
 }
 
+
 .container-request h2{
+  background-color: var(--white-color);
   text-align: center;
 }
 .container-request button.hidden{
@@ -391,6 +399,9 @@
   border-radius: 8px;
   width: 100%;
   outline: none;
+}
+.container-request input:focus{
+  box-shadow: #000000 0.2px 0.2px 10px  ;
 }
 .container-request a.hidden{
   color: #000000;
