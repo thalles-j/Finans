@@ -5,3 +5,6 @@
   O objetivo principal do site seria ajudar os usuários a gerenciar suas finanças de maneira eficiente, oferecendo ferramentas e recursos para controle de orçamento, acompanhamento de despesas e receitas, e planejamento financeiro.
 </p>
 
+![image](https://github.com/user-attachments/assets/07439f5a-6d54-41bd-b853-c8ff20dd318b)
+ 
+
